@@ -1,7 +1,7 @@
 # VRadio
 
-Play radiostations with your Homey
+Play radio stations with your Homey
 
-[a link](http://www.athom.com)
+[Athom.com](http://www.athom.com)
 
-Source: [a link](http://www.vradio.nl)
+Source: [www.vradio.nl](http://www.vradio.nl)
