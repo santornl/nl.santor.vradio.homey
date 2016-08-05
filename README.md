@@ -2,6 +2,18 @@
 
 Play radio stations with your Homey
 
+Add the VRadio card to your flow and search for a radio station:
+
+![alt tag](https://cloud.githubusercontent.com/assets/20050596/17430192/22790bb4-5af3-11e6-909e-c0234ce16780.png)
+
+![alt tag](https://cloud.githubusercontent.com/assets/20050596/17430193/227a15f4-5af3-11e6-8fcc-abec68a8c069.png)
+
+![alt tag](https://cloud.githubusercontent.com/assets/20050596/17430194/227ada3e-5af3-11e6-8491-77ec624de89e.png)
+
+When running the flow, your selected radio station will play.
+
+You can pause or play the music in the media player of Homey ([Homey-ip]/manager/media/) or add the media flow card.
+
 List of radio stations:
 
 * SlamFM
