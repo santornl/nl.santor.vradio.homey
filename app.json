@@ -8,7 +8,7 @@
         "en": "Play dutch internet radio",
         "nl": "Afspelen van internet radio"
     },
-    "version": "0.0.3",
+    "version": "0.1.0",
     "compatibility": "0.x || 1.x",
     "category": [
         "music"
@@ -26,12 +26,47 @@
         "homey:manager:media"
     ],
     "flow": {
+    	"triggers": [
+      	{
+        	"id": "radioChanged",
+	        "title": {
+    	      "en": "Radio station changed",
+    	      "nl": "Radio station veranderd"
+        	},
+	        "tokens": [
+    	      {
+        	    "name": "url",
+            	"title": {
+	              "en": "URL",
+	              "nl": "URL"
+	        	}
+        	  }
+        	]
+      	}
+    	],
         "actions": [
             {
                 "id": "playRadio",
                 "title": {
                     "en": "Play radio station",
                     "nl": "Speel radio station"
+                },
+                "args": [
+                    {
+                        "name": "source",
+                        "type": "autocomplete",
+                        "placeholder": {
+                            "en": "Search radio station...",
+                            "nl": "Vind een radio station..."
+                        }
+                    }
+                ]
+            },
+            {
+            	"id": "playUrlRadio",
+                "title": {
+                    "en": "Play radio station on Chromecast",
+                    "nl": "Speel radio station via Chromecast"
                 },
                 "args": [
                     {
