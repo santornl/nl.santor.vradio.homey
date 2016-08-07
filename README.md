@@ -14,6 +14,14 @@ When running the flow, your selected radio station will play.
 
 You can pause or play the music in the media player of Homey ([Homey-ip]/manager/media/) or add the media flow card.
 
+To stream a radio station to a Chromecast device make a flow with a "Radio station changed" card.
+
+![alt tag](https://cloud.githubusercontent.com/assets/20050596/17462402/bab4d7b4-5cab-11e6-80ef-a9fa77052403.png)
+
+And in another flow select the card "Play radio station on Chromecast"
+
+![alt tag] (https://cloud.githubusercontent.com/assets/20050596/17462401/bab3df58-5cab-11e6-97d5-08b1af1abef0.png)
+
 List of radio stations:
 
 * SlamFM
