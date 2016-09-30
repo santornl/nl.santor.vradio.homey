@@ -8,8 +8,8 @@
         "en": "Play dutch internet radio",
         "nl": "Afspelen van internet radio"
     },
-    "version": "0.1.0",
-    "compatibility": "0.x || 1.x",
+    "version": "0.1.1",
+    "compatibility": "0.9.x || 0.8.x",
     "category": [
         "music"
     ],
